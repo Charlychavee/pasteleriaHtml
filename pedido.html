@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Postresitos</title>
+</head>
+<body>
+
+    <h1>Aquí se hace el pedido</h1>
+    <form action="pedido.js">
+
+        <label for="nombre">Danos tu nombre Astrotaquero</label><br>
+        <input type="text" placeholder="Nombre" name="nombre" id="nombre"><br><br>
+
+        <label for="telefono">Tu numero de Telefono </label><br>
+        <input type="number" placeholder="3131000000" name="telefono" id="telefono" minlength="10" maxlength="10"><br><br>
+
+        <label for="correo">Tu Correo </label><br>
+        <input type="email" placeholder="example@gmail.com" name="correo" id="correo"><br><br>
+
+        <label for="date">Fecha de entrega </label><br>
+        <input type="datetime-local" name="date" id="date"><br><br>
+
+        <label for="Descripción">Descripción de pastel </label><br>
+        <textarea placeholder="Feliz cumpleaños 24" name="descripcion" id="descripcion"></textarea><br>
+
+        <p>Elige tu Bizcocho</p>
+        <input type="checkbox" name="vainilla" id="vainilla" value="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <input type="number" id="vainillaCuantos" name="vainillaCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="vainilla3" id="vainilla3" value="vainilla3">
+        <label for="vainilla3">Vainilla 3 Leches</label>
+        <input type="number" id="vainilla3Cuantos" name="vainilla3Cuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="chocolate" id="chocolate" value="Chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="number" id="chocolateCuantos" name="chocolateCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="fresa" id="fresa" value="Fresa">
+        <label for="fresa">Fresa</label>
+        <input type="number" id="fresaCuantos" name="fresaCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="limon" id="limon" value="Limon">
+        <label for="limon">Limón</label>
+        <input type="number" id="limonCuantos" name="limonCuantos" placeholder="Cuantos"><br>
+        
+
+        <p>Elige tu Cubierta o Decoración</p>
+        <input type="checkbox" name="caramelo" id="caramelo" value="Caramelo">
+        <label for="caramelo">Caramelo suave</label>
+        <input type="number" id="carameloCuantos" name="carameloCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="frutas" id="frutas" value="Frutas">
+        <label for="frutas">Frutas</label>
+        <input type="number" id="frutasCuantos" name="frutasCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="fondant" id="fondant" value="Fondant">
+        <label for="fondant">Fondant</label>
+        <input type="number" id="fondantCuantos" name="fondantCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="chantilly" id="chantilly" value="Chantilly">
+        <label for="chantilly">Chantilly</label>
+        <input type="number" id="chantillyCuantos" name="chantillyCuantos" placeholder="Cuantos"><br>
+
+        <input type="checkbox" name="merengue" id="merengue" value="Merengue">
+        <label for="merengue">Merengue</label>
+        <input type="number" id="merengueCuantos" name="merengueCuantos" placeholder="Cuantos"><br>
+
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
